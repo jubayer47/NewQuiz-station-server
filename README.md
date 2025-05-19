@@ -6,8 +6,8 @@ A full-stack quiz application that allows users to sign up, take timed quizzes, 
 
 ## 🚀 Live Demo
 
-- **Frontend**: [new-quiz-station-client.vercel.app](new-quiz-station-client.vercel.app)
-- **Backend API**: [new-quiz-station-server.vercel.app](new-quiz-station-server.vercel.app)
+- **Frontend**: [new-quiz-station-client.vercel.app](https://new-quiz-station-client.vercel.app/)
+- **Backend API**: [new-quiz-station-server.vercel.app](https://new-quiz-station-server.vercel.app/)
 
 ---
 

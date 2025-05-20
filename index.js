@@ -93,6 +93,10 @@ function authenticateToken(req, res, next) {
   });
 }
 
+app.get("/test", async (req, res) => {
+  res.send("<p>Hi there</p>")
+})
+
 app.post("/api/auth/signup", async (req, res) => {
   const { username, email, password } = req.body;
   const hashedPassword = await bcrypt.hash(password, 10);

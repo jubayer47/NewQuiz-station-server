@@ -2,15 +2,8 @@
   "version": 2,
   "builds": [
     {
-      "src": "./index.js",
-      "use": "@vercel/node",
-      "config": { "includeFiles": ["questions.json"] }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/"
+      "src": "api/**/*.js",
+      "use": "@vercel/node"
     }
   ]
 }
